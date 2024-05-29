@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/MinionBananna2"
+        android:layout_width="199dp"
+        android:layout_height="148dp"
+        android:layout_marginStart="197dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/mini" />
+
+    <ImageView
+        android:id="@+id/MinionBananna"
+        android:layout_width="190dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="7dp"
+        app:layout_constraintEnd_toStartOf="@+id/MinionBananna2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/nfa" />
+
+    <ImageView
+        android:id="@+id/CipiCipi"
+        android:layout_width="192dp"
+        android:layout_height="182dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="348dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/MinionBananna2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/chipi" />
+
+    <ImageView
+        android:id="@+id/Ketchup"
+        android:layout_width="227dp"
+        android:layout_height="281dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="56dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/CipiCipi"
+        app:srcCompat="@drawable/gav" />
+
+    <ImageView
+        android:id="@+id/obez"
+        android:layout_width="205dp"
+        android:layout_height="236dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="112dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/Ketchup"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/obe" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/abu"
+        android:layout_width="180dp"
+        android:layout_height="145dp"
+        android:rotation="88"
+        app:layout_constraintBottom_toTopOf="@+id/Ketchup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.589"
+        app:layout_constraintStart_toEndOf="@+id/CipiCipi"
+        app:layout_constraintTop_toBottomOf="@+id/MinionBananna2"
+        app:srcCompat="@drawable/aaa" />
+</androidx.constraintlayout.widget.ConstraintLayout>
